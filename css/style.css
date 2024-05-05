@@ -29,6 +29,8 @@
 .intro{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    width: 50rem;
+    text-align: center;
 }
 main {
     display: flex;
@@ -36,12 +38,10 @@ main {
     align-items: center;
     min-height: 100vh;
     padding-top: 5rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
     background-color: #F0D9B4;
 }
 .styles-container{
-    width: 100%;
+    width: 30rem;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -59,7 +59,7 @@ h3{
     font-family: CattletrailObliqueJNL;
 }
 .wood-type{
-    width: 100%;
+    width: 80rem;
     display: flex;
     flex-direction: column;
     margin-bottom: 6rem;
@@ -97,7 +97,7 @@ h3{
     display: flex;
     flex-direction: row;
     margin-bottom: 6rem;
-    width: 80%;
+    width: 50rem;
     justify-content: space-between;
 }
 .poster-container article{
@@ -107,6 +107,7 @@ h3{
     padding-bottom: 6rem;
     margin-bottom: 6rem;
     border-bottom: 0.2rem solid black;
+    width: 80rem;
 }
 .bronnen{
     margin-bottom: 6rem;
@@ -122,4 +123,27 @@ h3{
 }
 .bronnen a:hover{
     text-decoration: underline;
+}
+.wanted-h1 h1{
+    font-size: 3rem;
+    font-family: CattletrailJNL;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.wanted-img img{
+    width: 15rem;
+}
+.wanted-img{
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.techniek{
+    width: 23rem;
+    height: auto;
 }
